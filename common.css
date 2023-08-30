@@ -1,0 +1,26 @@
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button { 
+	-webkit-appearance: none; 
+	margin: 0; 
+} 
+
+label{
+	display: block;
+	margin-top: 20px;
+}
+.card {
+	margin: auto;
+	max-width: 800px;
+}
+.submit{
+	float: right;
+	margin-top: 30px;
+}
+.back{
+	margin-top: 30px;
+}
+
+.form-control[readonly] {
+    background-color: transparent;
+    opacity: 1;
+}
